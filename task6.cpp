@@ -4,13 +4,13 @@ int main()
  {
  int i,a[10],temp,j;
  cout<<"Enter any 10 num in array:";
- for(i=0;i<=10;i++)
+ for(i=0;i<10;i++)
  {
  cin>>a[i];
  }
- for(i=0;i<=10;i++)
+ for(i=0;i<10;i++)
  {
- for(j=0;j<=10-i;j++)
+ for(j=0;j<10-i;j++)
  {
  if(a[j]>a[j+1])
  {
@@ -23,7 +23,7 @@ int main()
  cout<<"\nData after sorting: ";
  for(j=0;j<10;j++)
  {
- cout<<a[j];
+ cout<<a[j]<<"\t";
  }
 return(0);
  }
